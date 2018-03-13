@@ -50,6 +50,7 @@ public class TwitterOperation {
                 Integer count = 100;
                 Query query = new Query("annual");
                 query.setCount(count);
+
                 QueryResult result;
                 do {
                     result = twitter.search(query);
